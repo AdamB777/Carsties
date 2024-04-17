@@ -1,6 +1,6 @@
-﻿namespace AuctionService.DTOs
+﻿namespace Contracts
 {
-    public class AuctionDto
+    public class AuctionCreated
     {
         public Guid Id { get; set; }
         public int ReservePrice { get; set; }
@@ -9,7 +9,7 @@
         public int SoldAmount { get; set; }
         public int CurrentHighBit { get; set; }
         public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; } 
+        public DateTime UpdateAt { get; set; }
         public DateTime AuctionEnd { get; set; }
         public string Status { get; set; }
         public string Make { get; set; }
